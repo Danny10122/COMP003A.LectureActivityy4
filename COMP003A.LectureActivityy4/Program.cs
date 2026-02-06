@@ -1,4 +1,6 @@
-﻿namespace COMP003A.LectureActivityy4
+﻿using System.Diagnostics.Metrics;
+
+namespace COMP003A.LectureActivityy4
 {
     internal class Program
     {
@@ -12,7 +14,16 @@
                 taskNumber++;
             }
 
-            int 
+            Console.WriteLine("\n");
+
+            int attempt = 1;
+
+            do
+            {
+                Console.WriteLine($"Attempt {attempt}");
+                attempt++;
+            }
+            while (attempt <= 3);
         }
     }
 }
