@@ -51,6 +51,15 @@ namespace COMP003A.LectureActivityy4
                 Console.WriteLine(number);
 
             }
+
+            /*
+            1. Which loop type was easiest for you to understand?
+            The do-while loop for sure
+            2.Which loop required the most careful tracing?
+            The while loop control
+            3.How did comments help you understand your loops?
+            comments help you explain the purpose of the loop, helping you stay organized
+            */
         }
     }
 }
