@@ -31,6 +31,26 @@ namespace COMP003A.LectureActivityy4
             {
                 Console.WriteLine($"Step {i}");
             }
+
+            int number = 0;
+
+            while (number <= 6)
+            {
+                number++;
+
+                if (number == 4)
+                {
+                    continue;
+                }
+
+                if (number == 6)
+                {
+                    break;
+                }
+
+                Console.WriteLine(number);
+
+            }
         }
     }
 }
